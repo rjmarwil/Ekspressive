@@ -105,6 +105,7 @@ body {
   top: 50%;
   left: 50%;
   font-size: 20px;
+  z-index: -1;
 }
 
 .col-centered {
@@ -113,14 +114,14 @@ body {
 }
 
 .bg-1 {
-  background: url("/img/IMG_0004_1024.jpg") no-repeat top center fixed;
+  background: url("/img/cooking.gif") no-repeat top center fixed;
   background-size: 100%;
   top: 0;
   left: 0;
 }
 
 .bg-2 {
-  background: url("/img/IMG_0004_1024.jpg") no-repeat top center fixed;
+  background: url("/img/morerain.jpg") no-repeat top center fixed;
   background-size: 100%;
   top: 0;
   left: 0;
