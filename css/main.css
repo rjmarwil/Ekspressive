@@ -13,8 +13,8 @@
 html {
     color: #222;
     font-size: 1em;
-    font-family: 'Rock Salt', cursive;
     line-height: 1.4;
+    margin: 0 100px 0 100px;
 }
 
 /*
@@ -96,65 +96,41 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.bg {
+body {
+  font-family: 'Rock Salt', cursive !important;
+}
+
+.letters {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+}
+
+.col-centered {
+   float: none;
+   margin: 0 auto;
+}
+
+.bg-1 {
   background: url("/img/IMG_0004_1024.jpg") no-repeat top center fixed;
   background-size: 100%;
   top: 0;
   left: 0;
 }
 
-.center {
-  margin: 0 auto;
+.bg-2 {
+  background: url("/img/IMG_0004_1024.jpg") no-repeat top center fixed;
+  background-size: 100%;
+  top: 0;
+  left: 0;
 }
 
-.col-1 {
-  float: left;
-  width: 10%;
-}
-
-.col-2 {
-  float: left;
-  width: 20%;
-}
-
-.col-3 {
-  float: left;
-  width: 30%;
-}
-
-.col-4 {
-  float: left;
-  width: 40%;
-}
-
-.col-5 {
-  float: left;
-  width: 50%;
-}
-
-.col-6 {
-  float: left;
-  width: 60%;
-}
-
-.col-7 {
-  float: left;
-  width: 70%;
-}
-
-.col-8 {
-  float: left;
-  width: 80%;
-}
-
-.col-9 {
-  float: left;
-  width: 90%;
-}
-
-.col-10 {
-  float: left;
-  width: 100%;
+.bg-3 {
+  background: url("/img/IMG_0004_1024.jpg") no-repeat top center fixed;
+  background-size: 100%;
+  top: 0;
+  left: 0;
 }
 
 img:hover {
