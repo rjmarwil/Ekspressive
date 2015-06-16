@@ -9,9 +9,9 @@ $(document).ready(function() {
 
   $(document).keydown(function(e) {
     if (e.keyCode == 81) { // Q
-      $.playSound('/sounds/throwup');
+      $.playSound('/sounds/bubble-first');
     } else if (e.keyCode == 87) { // W
-      $.playSound('/sounds/orchestra');
+      $.playSound('/sounds/bubble-second');
     } else if (e.keyCode == 69) { // E
       $.playSound('/sounds/bubble-third');
     } else if (e.keyCode == 82) { // R
